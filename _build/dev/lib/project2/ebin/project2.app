@@ -1,0 +1,12 @@
+{application,project2,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"project2"},
+              {modules,['Elixir.AppSupervisor','Elixir.GossipInitiator',
+                        'Elixir.GossipWorker',
+                        'Elixir.GossipWorkerCoordinator',
+                        'Elixir.MainController','Elixir.Project2',
+                        'Elixir.PushSumInitiator','Elixir.PushSumWorker',
+                        'Elixir.PushSumWorkerCoordinator',
+                        'Elixir.TopologyBuilder']},
+              {registered,[]},
+              {vsn,"0.1.0"}]}.
